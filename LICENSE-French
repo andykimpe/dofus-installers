@@ -1,0 +1,232 @@
+
+Relecture GPL TF
+LICENCE PUBLIQUE GÉNÉRALE GNU
+Version 3, du 29 juin 2007.
+Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+Chacun est autorisé à copier et distribuer des copies conformes de ce document
+de licence, mais toute modification en est proscrite.
+Traduction réalisée par Olivier Hugot, Benjamin Jean et Sandrine Rambaud sur
+la base des travaux de Philippe Verdy et des membres de la liste GNU Trad de
+l’April
+Avertissement important au sujet de cette traduction française.
+Ceci est une traduction en français de la licence “GNU General Public License”
+(GPL). Cette traduction est fournie ici dans l’espoir qu’elle facilitera sa com-
+préhension, mais elle ne constitue pas une traduction officielle ou approuvée
+d’un point de vue juridique.
+La Free Software Foundation (FSF) ne publie pas cette traduction et ne l’a pas
+approuvée en tant que substitut valide au plan légal pour la licence authentique
+“GNU General Public Licence”. Le traducteur ne peut garantir avec certitude
+qu’elle représente avec exactitude la signification légale des termes de la licence
+authentique “GNU General Public License” publiée en anglais. Cette traduc-
+tion n’établit donc légalement aucun des termes et conditions d’utilisation d’un
+logiciel sous licence GNU GPL — seul le texte original en anglais le fait. Si
+vous souhaitez être sûr que les activités que vous projetez seront autorisées par
+la GNU General Public License, veuillez vous référer à sa seule version anglaise
+authentique.
+La FSF vous recommande fortement de ne pas utiliser cette traduction en tant
+que termes officiels pour vos propres programmes ; veuillez plutôt utiliser la
+version anglaise authentique telle que publiée par la FSF. Si vous choisissez
+de transmettre cette traduction en même temps qu’un Programme sous licence
+GNU GPL, cela ne vous dispense pas de l’obligation de transmettre en même
+temps une copie de la licence authentique en anglais, et de conserver dans la
+traduction cet important avertissement en français et son équivalent en anglais
+ci-dessous.
+Important Warning About This French Translation.
+This is a translation of the GNU General Public License (GPL) into French.
+This translation is distributed in the hope that it will facilitate understanding,
+but it is not an official or legally approved translation.
+The Free Software Foundation (FSF) is not the publisher of this translation
+and has not approved it as a legal substitute for the authentic GNU General
+Public License. The translation has not been reviewed carefully by lawyers,
+and therefore the translator cannot be sure that it exactly represents the legal
+1
+indépendamment du statut de l’utilisateur donné ou de la façon dont l’utilisateur
+donné utilise effectivement, souhaite utiliser ou dont il est attendu qu’il utilise
+le produit. Un produit est un produit de consommation indépendamment du
+fait que ce produit soit substantiellement à usage commercial, industriel ou
+professionnel, à moins que de tels usages représentent le seul mode significatif
+d’utilisation du produit.
+Les « Informations d’Installation » d’un Produit Utilisateur désignent toutes les
+méthodes, procédures, clés d’autorisation ou autres informations requises pour
+installer et exécuter des versions modifiées d’une création régie dans ce Produit
+Utilisateur à partir d’une version modifiée de sa Source Correspondante. Ces
+informations doivent suffire à garantir que le fonctionnement continu du code
+objet modifié n’est en aucun cas empêché ou entravé seulement parce qu’une
+modification a été effectuée.
+Si vous transmettez une création sous forme de code objet conformément à cet
+article dans, ou avec, ou spécifiquement pour une utilisation dans, un Produit
+Utilisateur et si la transmission intervient comme élément d’une opération dans
+laquelle le droit de possession et d’utilisation du Produit Utilisateur est transféré
+au destinataire définitivement ou pour une durée déterminée (indépendamment
+de la façon dont l’opération est qualifiée), la Source Correspondante transmise en
+application de cet article doit être accompagnée des Informations d’Installation.
+Toutefois, cette obligation ne s’applique pas si ni vous ni aucun tiers ne conservez
+la possibilité d’installer un code objet modifié sur le Produit Utilisateur (par
+exemple, la création a été installée en mémoire morte).
+L’obligation de fournir les Informations d’Installation n’inclut pas celle de con-
+tinuer à fournir un service de support, une garantie ou des mises à jour pour une
+création qui a été modifiée ou installée par le destinataire, ou pour le Produit
+Utilisateur dans lequel elle a été modifiée ou installée. L’accès à un réseau peut
+être refusé lorsque la modification elle-même affecte matériellement et défavor-
+ablement le fonctionnement du réseau ou viole les règles et protocoles pour la
+communication au travers du réseau.
+La Source Correspondante transmise, et les Informations d’Installation fournies,
+conformément à cet article, doivent être dans un format publiquement docu-
+menté (et dont une implémentation est disponible auprès du public sous forme
+de code source) et ne doivent nécessiter aucune clé ou mot de passe spécial pour
+la décompression , la lecture ou la copie.
+7. Termes additionnels.
+Les « Permissions additionnelles » désignent des termes qui complètent les ter-
+mes de cette Licence en stipulant des exceptions à l’une ou plusieurs de ses
+conditions. Les permissions additionnelles qui sont applicables à l’entier Pro-
+gramme doivent être traitées comme si elles étaient incluses dans cette Licence,
+9
+dans la mesure où elles sont valides au terme de la loi applicable. Si des permis-
+sions additionnelles s’appliquent uniquement à une partie du Programme, cette
+partie peut être utilisée séparément selon les termes de ces permissions, mais
+l’entier Programme demeure soumis à cette Licence sans prise en compte des
+Permissions additionnelles.
+Quand vous transmettez un exemplaire d’une création régie, vous pouvez à votre
+convenance supprimer toute permission additionnelle sur cet exemplaire, ou sur
+n’importe quelle partie de celui-ci. (Des permissions additionnelles peuvent être
+rédigées afin de requérir leur propre suppression dans certains cas lorsque vous
+modifiez la création). Vous pouvez stipuler des permissions additionnelles sur
+une contribution, ajoutée par vos soins à une création régie, sur laquelle vous
+disposez des droits d’auteur ou des permissions adéquates pour ce faire.
+Nonobstant toute autre clause de cette Licence, pour une contribution que vous
+ajoutez à une création régie, vous pouvez (si vous y êtes autorisé par les titulaires
+des droits d’auteur sur cette contribution) compléter les termes de cette Licence
+avec des termes :
+a) Déclinant toute garantie ou limitant la responsabilité différemment des
+termes des articles 15 et 16 de cette Licence ; ou
+b) Exigeant le maintien de mentions légales spécifiées ou de mentions d’attribution
+de paternité spécifiées raisonnables au sein de cette contribution ou dans
+les Mentions Légales Appropriées affichées par les créations la contenant ;
+ou
+c) Interdisant une indication erronée de l’origine de cette contribution, ou
+exigeant que les versions modifiées de cette contribution soient marquées
+de façon raisonnable comme étant différent de la version originale ; ou
+d) Limitant l’usage à des fins publicitaires des noms des concédants ou des
+auteurs de la contribution ; ou
+e) Refusant d’accorder des droits aux termes du droit des marques pour
+l’utilisation de noms commerciaux, marques commerciales ou marques de
+services ; ou
+f) Exigeant l’indemnisation des concédants et des auteurs de cette contri-
+bution par quiconque transmetant la contribution (ou des versions modi-
+fiées de celle-ci) avec des acceptations contractuelles de responsabilité au
+bénéfice du récipiendaire, pour toute responsabilité que ces acceptations
+contractuelles imposent directement à ces concédants et auteurs.
+Tous autres termes additionnels non permissifs sont considérés comme des « re-
+strictions supplémentaires » au sens de l’article 10. Si le Programme tel que vous
+l’avez reçu, ou toute partie de celui-ci, contient une mention indiquant qu’il est
+10
+régi par cette Licence accompagnée d’une stipulation qui est une restriction sup-
+plémentaire, vous pouvez supprimer cette stipulation. Si un document de licence
+contient une restriction supplémentaire mais permet la concession subséquente
+ou la transmission sous cette Licence, vous pouvez ajouter à une création régie
+une contribution régie aux termes de ce document de licence, à condition que
+la restriction supplémentaire ne survive pas à une telle concession subséquente
+ou une telle transmission.
+Si vous ajoutez des termes à une création régie en accord avec cet article, vous
+devez inclure, dans les fichiers sources appropriés, une déclaration des termes
+additionnels qui s’appliquent à ces fichiers, ou une mention indiquant où trouver
+les termes applicables.
+Les termes additionnels, permissifs ou non permissifs, peuvent être spécifiés sous
+la forme d’une licence écrite séparément, ou spécifiés comme des exceptions ; les
+exigences ci-dessus s’appliquent dans chacun de ces cas.
+8. Résiliation
+Vous ne pouvez ni propager ni modifier une création régie en dehors de ce qui
+est expressément prévu par cette Licence. Toute autre tentative de la propager
+ou la modifier est nulle et mettra automatiquement un terme à vos droits issus
+de cette Licence (y compris toute licence de brevet accordée en application du
+troisième paragraphe de l’article 11).
+Cependant, si vous cessez toute violation de cette Licence, alors votre licence
+concédée par un titulaire de droit d’auteur en particulier est réinstaurée (a) à
+titre provisoire à moins que et jusqu’à ce que le titulaire de droit d’auteur mette
+fin définitivement et explicitement à votre licence, et (b) de façon permanente
+si le titulaire de droit d’auteur ne vous notifie pas par un moyen raisonnable la
+violation dans les soixante (60) jours après la cessation.
+De plus, votre licence obtenue d’un titulaire de droit d’auteur en particulier
+est réinstaurée de façon permanente si le titulaire vous notifie par un moyen
+raisonnable la violation, si c’est la première fois que vous avez reçu une notifi-
+cation de violation de cette Licence (pour n’importe quelle création) de la part
+de ce titulaire de droit d’auteur, et si vous remédiez à cette violation dans les
+trente (30) jours qui suivent votre réception de la notification.
+La cessation de vos droits en application de cet article n’entraînera pas la résil-
+iation des licences pour les parties qui ont reçu des exemplaires ou des droits
+de votre part en application de cette Licence. Si vos droits ont cessé et n’ont
+pas été réinstaurés de façon permanente, vous n’êtes plus autorisés à recevoir
+de nouvelles licences pour les mêmes éléments au titre de l’article 10.
+11
+TITULAIRES DE DROITS, OU TOUT AUTRE PARTIE QUI MODIFIE
+ET/OU TRANSFÈRE LE PROGRAMME AINSI QU’AUTORISÉ PRÉCÉDEM-
+MENT, NE NE PEUVENT ÊTRE TENU POUR RESPONSABLE ENVERS
+VOUS POUR LES DOMMAGES, INCLUANT TOUT DOMMAGE GÉNÉRAL,
+SPÉCIAL, ACCIDENTEL OU INDIRECTS CONSECUTIFS A L’UTILISATION
+OU A L’INCAPACITÉ D’UTILISER LE PROGRAMME (NOTAMMENT LA
+PERTE DE DONNÉES OU L’INEXACTITUDE DES DONNÉES RETOURNÉES
+OU LES PERTES SUBIES PAR VOUS OU DES PARTIES TIERCES OU
+L’INCAPACITÉ DU PROGRAMME À FONCTIONNER AVEC TOUT AUTRE
+PROGRAMME), MÊME SI UN TEL TITULAIRE OU TOUTE AUTRE PAR-
+TIE A ÉTÉ INFORMÉE DE LA POSSIBILITÉ DE TELS DOMMAGES
+17. Interprétation des sections 15 et 16.
+Si la déclaration d’absence de garantie et la limitation de responsabilité fournies
+ci-dessus ne peuvent prendre effet dans certaines juridictions en raison de leurs
+termes, les cours de justice qui les examinent doivent appliquer la législation
+locale qui s’approche le plus d’une exclusion absolue de toute responsabilité
+civile liée au Programme, à moins qu’une garantie ou hypothèse de responsabilité
+accompagne un exemplaire du Programme en contrepartie d’un paiement.
+FIN DES STIPULATIONS.
+Comment appliquer ces stipulations à vos nouveaux programmes
+Si vous développez un nouveau programme et que vous souhaitez que le public
+puisse en avoir l’utilisation optimale, la meilleure façon d’y parvenir est d’en
+faire un logiciel libre que chacun peut redistribuer et modifier conformément à
+ces stipulations.
+Pour ce faire, joignez les mentions suivantes au programme. Il est plus sûr de les
+joindre au début de chacun des fichiers sources afin d’affirmer de la façon la plus
+effective possible l’exclusion de garantie ; et chaque fichier devrait comporter au
+moins la ligne « copyright » et un lien versla mention complète :
+<une ligne donnant le nom du programme et une brève idée de ce qu’il fait.>
+Copyright (C) <année> <nom de l’auteur>
+Ce programme est un logiciel libre ; vous pouvez le redistribuer ou le modifier
+suivant les termes de la GNU General Public License telle que publiée par la
+Free Software Foundation , soit la version 3 de la Licence, soit (à votre gré)
+toute version ultérieure.
+Ce programme est distribué dans l’espoir qu’il sera utile, mais SANS AUCUNE
+GARANTIE : sans même la garantie implicite de COMMERCIALISABILITÉ
+
+ni d’ADÉQUATION À UN OBJECTIF PARTICULIER. Consultez la GNU
+General Public License pour plus de détails.
+Vous devriez avoir reçu une copie de la GNU General Public License avec ce
+programme ; si ce n’est pas le cas, consultez : <http://www.gnu.org/licenses/>.
+Ajoutez également les informations permettant de vous contacter par courrier
+électronique ou postal.
+Si le programme produit une interaction sur un terminal, faites-lui afficher une
+courte notice comme celle-ci lors de son démarrage en mode interactif :
+<programme> Copyright (C) <année> <nom de l’auteur>
+Ce programme vient SANS ABSOLUMENT AUCUNE GARANTIE ; taper
+“affiche g” pour
+les détails. Ceci est un logiciel libre et vous êtes invité à le redistribuer suivant
+certaines conditions ; taper “affiche c” pour les détails.
+Les commandes hypothétiques “affiche g” et“affiche c” devrait afficher les parties
+appropriées de la GNU General Public licence. Bien sûr, les commandes de
+votre programme pourraient être différentes ; pour une interface graphique,
+vous pourriez utiliser une « boîte À propos. »
+Vous devriez également obtenir de votre employeur (si vous travaillez en tant que
+programmeur) ou de votre école, le cas échéant, un acte de « renonciation aux
+droits d’auteur » pour ce programme, si nécessaire. Pour plus d’informations
+à ce sujet, et pour comprendre comment appliquer et respecter la GNU GPL,
+consultez <http://www.gnu.org/licenses/>.
+La GNU General Public License ne permet pas d’incorporer votre programme
+dans des programmes propriétaires. Si votre programme est une bibliothèque de
+fonctions, vous pouvez considérer qu’il est plus utile d’autoriser un lien entre des
+applications propriétaires et la bibliothèque. Si c’est ce que vous voulez faire,
+utilisez la GNU Lesser General Public License à la place de cette Licence. Mais
+d’abord, veuillez lire <http://www.gnu.org/philosophy/why-not-lgpl.html> ou
+la traduction <http://www.gnu.org/licenses/why-not-lgpl.fr.html>
+
+traduction non officiel source
+
+http://www.gnu.org/licenses/translations.html
+
+http://dachary.org/loic/gpl-french.pdf
