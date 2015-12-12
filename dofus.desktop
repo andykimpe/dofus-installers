@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=start Dofus
+Name[fr]=Lancer Dofus
+Comment=Turn based tactical MMORPG
+Exec=/usr/bin/dofus
+Path=/usr/bin/
+Terminal=false
+Icon=ankama-dofus
+Type=Application
+Categories=Game;StrategyGame;

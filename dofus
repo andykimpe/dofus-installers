@@ -1,0 +1,69 @@
+#!/bin/bash
+TEXTDOMAIN=dofuslauncher
+if [[ $EUID -eq 0 ]]; then
+	zenity --error --text=$"Please run dofus as a normal user, and not with the root account"
+	exit 1
+fi
+
+while getopts s:r: opt; do
+  case $opt in
+  s)
+      dofus=start
+      ;;
+  r)
+      dofus=reinstall
+      ;;
+  esac
+done
+
+
+if [ -d "$HOME/.dofus" ];then
+echo
+else
+dofus=reinstall
+fi
+
+
+if [ $dofus == ];then
+dofus=$(zenity --entry --title="Dofus Launcher" --text="select start or reinstall" --entry-text="" start reinstall)
+fi
+
+if [ $dofus == "reinstall" ];then
+rm -rf $HOME/.dofus
+mkdir -p $HOME/.dofus
+mkdir -p $HOME/dofus-install
+if [ "$(uname -m)" == "x86_64" ]; then
+urldownload=$(wget -qO- https://github.com/andykimpe/dofus-installers/raw/master/url64bit)
+else
+urldownload=$(https://github.com/andykimpe/dofus-installers/raw/master/url32bit)
+fi
+wget "$urldownload" -O $HOME/dofus-install/dofus.tar.gz 2>&1 | sed -u 's/.* \([0-9]\+%\)\ \+\([0-9.]\+.\) \(.*\)/\1\n# Downloading at \2\/s, ETA \3/' | zenity --progress --no-cancel --auto-close --auto-kill --title='Downloading File...'
+RUNNING=0
+while [ $RUNNING -eq 0 ]
+do
+if [ -z "$(pidof zenity)" ]
+then
+  pkill wget
+  RUNNING=1
+fi
+done
+cd $HOME/dofus-install
+tar -xvf $HOME/dofus-install/dofus.tar.gz
+cd
+cp -R $HOME/dofus-install/Dofus/* $HOME/.dofus
+rm -rf $HOME/dofus-install
+fi
+
+
+#file_path=`readlink -f -n "$0"`
+#path=`dirname "$file_path"`
+
+#The following 2 lines can be uncommented if transitions crashes at startup
+unset SESSION_MANAGER
+#export QT_NO_GLIB=1
+
+if [ -d "$HOME/.dofus" ];then
+HOME=$HOME/.dofus
+chmod +x $HOME/transition/ankama-transition-dofus
+LD_LIBRARY_PATH="$HOME/transition/" "$HOME/transition/ankama-transition-dofus"
+fi
