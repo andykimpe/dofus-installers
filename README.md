@@ -2,58 +2,57 @@
 
 # Installation
 
-Lire le fichier README version originale française README-FRENCH.md (Read the README original French version README-FRENCH.md)
+l'installation nécessite les droit d'administrateur (sudo)
 
-Installation requires administrator rights (sudo)
+ainsi que les prérequi suivant bash, zenity, tar, wget (inclus par défaut sur la plupart des distribution)
 
-and the following prérequi bash, zenity, tar, wget (included by default on most distribution)
-
-to install just use the following script (the admistrateur password will automatically ask)
+pour installer il suffit d'utilisez le script suivant (le mot de passe admistrateur sera demandez automatiquement)
 
 https://raw.githubusercontent.com/andykimpe/dofus-installers/master/dofus-installers.sh
 
-Command Line Installation
+installation en ligne de commande
 
-<code> wget https://raw.githubusercontent.com/andykimpe/dofus-installers/master/dofus-installers.sh -qO- | bash </ code>
+wget https://raw.githubusercontent.com/andykimpe/dofus-installers/master/dofus-installers.sh -qO- | bash
+a lire avant d'installer
 
-# To read before installing
+ce project est un installateur pour linux qui permet d'installer facilement
 
-This project is an installer for Linux that installs easily
+le jeu dofus créer par ankama games
 
-the game created by Ankama games Dofus
+les utilisateur rencontre souvent des problème avec l'updater
 
-user often encounters problems with the updater
+et doive souvent réinstaller le jeux entiérrement
 
-and often must reinstall the game entierrement
+le project est encore en béta toutes les fonctionalité de celui ci
 
-the project is still in beta all the functionality of this one
+ne sont pas encore disponible pour toutes les distribution linux
 
-are not yet available for all Linux distribution
+ce que l'installateur peut faire actuellement (pour toutes les distribution linux sans exection)
 
-that the installer can now do (for any linux distribution without exection)
+installer les raccourcie le script de lancement et de réinstallation
 
-install shortened launching script and relocation
+ce que cette installer ne peut encore faire (ou faire pour toutes les distribution linux)
 
-that this installation can not yet do (or do for any linux distribution)
+installer et debuger adobe air
 
-debuger and install adobe air
+attention a la licence les script et raccourcie lancer sont sous la GPL3
 
-attention has licensed the script and shortened run are in the GPL3
+voir LICENSE
 
-see LICENSE
+traduction fraçaise non officiel voir LICENSE-French
 
-the icon file are property of ankama game
+les fichier icon sont propriété d'ankama game
 
-you do not have the right to change
+vous n'avez pas le droit de les modifier
 
-you can use them in the terms of the license of the games (see in the $HOME/.dofus/share/eulas after installlation)
+vous pouvez les utilisez dans les termes de la licence du jeux (voir dans le dossier $HOME/.dofus/share/eulas après installlation)
 
-Also note that it is pouront file be removed
+notez également que c'est fichier pouront étre retirer
 
-d upon "equest per message and deprive confirmation email
+sur simple d"emande par message priver puis confirmation par mail
 
-for security reasons the email server IP address of the request sender
+par mesure de sécurité l'adresse ip du serveur mail expéditeur de la demande
 
-will corespondre has a known ip dofus.com areas or ankama.com
+devra corespondre a une ip connue des domaines dofus.com ou ankama.com
 
-and will be registered correctly on dns servers
+et devra étre correctement enregistré sur les serveurs dns
